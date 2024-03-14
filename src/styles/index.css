@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+#root {
+  background-color: #eee;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 1em;
+  width: 100vw;
+}
+
+#app {}
