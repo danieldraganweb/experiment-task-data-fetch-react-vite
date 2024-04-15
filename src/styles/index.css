@@ -3,11 +3,16 @@ body {
 }
 
 #root {
-  background-color: #eee;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  height: 100vh;
-  padding: 1em;
-  width: 100vw;
 }
 
-#app {}
+#app {
+  background-color: #fff;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
